@@ -61,7 +61,7 @@ const s3Bucket = process.env.S3_BUCKET;
         console.log('File:: ',media_file_uri,' type:: ',filetype);
 
         let params = {
-            LanguageCode: 'en-US',
+            LanguageCode: 'en-AU',
             Media: {
                 MediaFileUri: media_file_uri
             },
